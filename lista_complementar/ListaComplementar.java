@@ -10,6 +10,7 @@ public class ListaComplementar {
 	
 	
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		Random ale = new Random();
 		int opcao;
