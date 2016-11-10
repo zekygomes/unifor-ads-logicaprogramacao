@@ -12,6 +12,7 @@ public class Questao02 {
 	 */
 	
 	public static void main(String[] args) {
+		@SuppressWarnings({ "unused", "resource" })
 		Scanner in = new Scanner(System.in);
 		Random ale = new Random();
 		int numLin = 5, numCol = 4;

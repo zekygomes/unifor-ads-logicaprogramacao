@@ -1,13 +1,13 @@
 package atividadepratica11;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Questao07 {
 	
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
-		Random ale = new Random();
+
 		int numFunc;
 		long [] cpf;
 		double [] []salario;

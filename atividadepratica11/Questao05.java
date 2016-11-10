@@ -12,10 +12,12 @@ public class Questao05 {
 	 */
 	
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner in = new Scanner(System.in);
 		Random ale = new Random();
 		int numLinA, numColA,numLinB, numColB, opcao = 0;
 		int [][] A, B;
+		@SuppressWarnings("unused")
 		boolean somaSub=false, mult=false;
 		
 		System.out.println("Informe o número de Linhas da Matriz A:");

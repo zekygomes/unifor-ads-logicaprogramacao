@@ -1,13 +1,9 @@
 package desafio_matriz;
 
-import java.util.Scanner;
-
 public class Desafio2 {
 
 	public static void main(String[] args) {
-		@SuppressWarnings("unused")
-		Scanner in = new Scanner(System.in);	
-		int determinante;	
+			int determinante;	
 		int [][] matriz = new int [][]{
 				{5, 2, 1},
 				{-2, 3, 4}, 
